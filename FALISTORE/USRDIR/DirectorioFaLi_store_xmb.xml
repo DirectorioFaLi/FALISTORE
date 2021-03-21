@@ -1,0 +1,443 @@
+<XMBML version="1.0">
+
+<!-- 4.87 DirectorioFaLi [Ultimo Update: 21/03/2021] -->
+
+       <!-- Logo/Icono XMB -->
+
+	<View id="DirectorioFaLi_xmb_main"> 
+		<Attributes> 
+			<Table key="DirectorioFaLi_main">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/ICON0.PNG</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
+				<Pair key="pic"><String>/dev_hdd0/game/FALISTORE/PIC1.PNG</String></Pair>
+				<Pair key="pic_notation"><String>WNT_XmbItemAlbum</String></Pair>
+				<Pair key="title"><String>★ DirectorioFaLi ★</String></Pair>
+				<Pair key="info"><String>  Version 1.1  </String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+			</Table>			
+		</Attributes>
+			<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap"
+				key="DirectorioFaLi_main"
+				attr="DirectorioFaLi_main"
+				src="#DirectorioFaLi_main_items"/>
+			</Items>
+		</View>		
+		
+<!-- Menu principal -->
+		
+		<View id="DirectorioFaLi_main_items">  
+		<Attributes>
+           <Table key="JUEGOS_PS3">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/xmbps3.png</String></Pair>
+				<Pair key="title"><String>Juegos PS3</String></Pair>
+				<Pair key="info"><String>Descarga e instala juegos para tu PS3</String></Pair>
+			</Table>			
+           <Table key="JUEGOS_PS2">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/xmbps2.png</String></Pair>
+				<Pair key="title"><String>Juegos PS2</String></Pair>
+				<Pair key="info"><String>Descarga e instala juegos para tu PS3</String></Pair>
+			</Table>
+			<Table key="JUEGOS_PS1">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/xmbps1.png</String></Pair>
+				<Pair key="title"><String>Juegos PS1</String></Pair>
+				<Pair key="info"><String>Descarga e instala juegos para tu PS3</String></Pair>
+			</Table>
+		    <Table key="juegos_psp">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/xmbpsp.png</String></Pair>
+				<Pair key="title"><String>Juegos PSP</String></Pair>
+				<Pair key="info"><String>Descarga e instala juegos para tu PS3</String></Pair>
+			</Table>
+			<Table key="juegos_retro">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/retro.png</String></Pair>
+				<Pair key="title"><String>Juegos Retro</String></Pair>
+				<Pair key="info"><String>Descarga e instala juegos para tu PS3</String></Pair>
+			</Table>
+			<Table key="personalizacion">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/personaizacion.png</String></Pair>
+				<Pair key="title"><String>Personalizacion</String></Pair>
+				<Pair key="info"><String>Personaliza tu PS3</String></Pair>
+			</Table>
+			<Table key="pkg">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/pkg.png</String></Pair>
+				<Pair key="title"><String>PKG Necesarios para tu consola</String></Pair>
+				<Pair key="info"><String>Herramientas Utiles en PKG</String></Pair>
+			</Table>
+			<Table key="han_advanced_menu">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/herramientas.png</String></Pair>
+				<Pair key="title"><String>Herramientas Avanzadas</String></Pair>
+				<Pair key="info"><String>Otras herramientas utiles</String></Pair>
+			</Table>
+			<Table key="UPDATE">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/update.png</String></Pair>
+				<Pair key="title"><String>Actualizar Tienda</String></Pair>
+				<Pair key="info"><String></String></Pair>
+			</Table>
+		</Attributes>
+			<Items>	
+            <Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="JUEGOS_PS3" 
+				attr="JUEGOS_PS3"
+				src="#JUEGOS_PS3_main"
+				/>	
+		    <Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="JUEGOS_PS2" 
+				attr="JUEGOS_PS2"
+				src="#JUEGOS_PS2_main"
+				/>	
+		    <Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="JUEGOS_PS1" 
+				attr="JUEGOS_PS1"
+				src="#JUEGOS_PS1_main"
+				/>	
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="juegos_psp" 
+				attr="juegos_psp"
+				src="#juegos_psp_main"
+				/>	
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="juegos_retro" 
+				attr="juegos_retro"
+				src="#juegos_retro_main"
+				/>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="personalizacion" 
+				attr="personalizacion"
+				src="#personalizacion_main"
+				/>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="pkg" 
+				attr="pkg"
+				src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/APLICACIONES/aplicaciones_ps3.xml#aplicaciones_ps3_items"
+				/>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="han_advanced_menu" 
+				attr="han_advanced_menu"
+				src="#han_advanced_menu_main"
+				/>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="UPDATE" 
+				attr="UPDATE"
+				src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/UPDATE/UPDATE.xml#UPDATE_main"/>
+			</Items>
+		</View>		
+
+<!-- Submenu PS3 -->	
+
+        <View id="JUEGOS_PS3_main"> 
+		<Attributes> 
+			<Table key="DEMOS">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/psn.png</String></Pair>
+				<Pair key="title"><String>Demos PSN (juegos completos)</String></Pair>
+				<Pair key="info"><String>Descarga Demos de Todas las Regiones (Formato PKG)</String></Pair>
+			</Table>
+			<Table key="PS3_PSN">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/ps3.png</String></Pair>
+				<Pair key="title"><String>PS3 PSN</String></Pair>
+				<Pair key="info"><String>Descarga Juegos region EUR Completos (Formato PKG)</String></Pair>
+			</Table>
+			<Table key="PARCHES">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/Parche.png</String></Pair>
+				<Pair key="title"><String>Parche de Juegos</String></Pair>
+				<Pair key="info"><String>5 Parche Disponibles</String></Pair>
+			</Table>
+			<Table key="Contenido_DLC">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/dlc.png</String></Pair>
+				<Pair key="title"><String>Todos los DLCS de PSN</String></Pair>
+				<Pair key="info"><String>Descarga contenido extra descargable de juegos de todas las regiones (Formato PKG)</String></Pair>
+			</Table>
+			<Table key="juegos_segundoplano">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/ps3.png</String></Pair>
+				<Pair key="title"><String>Juegos de PS3 PSN en segundo plano</String></Pair>
+				<Pair key="info"><String>No Usar en HFW</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+            <Query
+				class="type:x-xmb/folder-pixmap"
+				key="DEMOS"
+				attr="DEMOS" 
+				src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/JUEGOS/DEMOS/DEMOS.xml#DEMOS_items"
+				/>
+            <Query
+				class="type:x-xmb/folder-pixmap"
+                key="PS3_PSN"
+                attr="PS3_PSN"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/JUEGOS/PS3/PS3_PSN.xml#PS3_PSN_items"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="PARCHES"
+                attr="PARCHES"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/PARCHES/PARCHES.xml#PARCHES_main"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="Contenido_DLC"
+                attr="Contenido_DLC"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/DLC/Contenido_ALLDLC.xml#Contenido_ALLDLC_main"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="juegos_segundoplano"
+                attr="juegos_segundoplano"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/juegosensegundoplano/juegos_segundoplano.xml#juegos_segundoplano_items"
+				/>
+            </Items>
+		</View>				
+
+<!-- Submenu Ps2 -->
+ 
+        <View id="JUEGOS_PS2_main"> 
+		<Attributes> 
+			<Table key="JUEGOS_PS2">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/ps2.png</String></Pair>
+				<Pair key="title"><String>Juegos PS2 PSN</String></Pair>
+				<Pair key="info"><String>Descarga e instala juegos de PS2 de todas las regiones (Formato PKG)</String></Pair>
+			</Table>
+        </Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="JUEGOS_PS2"
+                attr="JUEGOS_PS2"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/JUEGOS/PS2/JUEGOS_PS2.xml#JUEGOS_PS2_items"
+				/>
+	        </Items>
+	    </View>	
+		
+<!-- Submenu PS1 -->			
+
+	    <View id="JUEGOS_PS1_main"> 
+		<Attributes>		
+			<Table key="JUEGOS_PS1">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/ps1.png</String></Pair>
+				<Pair key="title"><String>Juegos PS1 PSN</String></Pair>
+				<Pair key="info"><String>Descarga e instala juegos de PS1 de todas las regiones (Formato PKG)</String></Pair>
+			</Table>	
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="JUEGOS_PS1"
+                attr="JUEGOS_PS1"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/JUEGOS/PS1/JUEGOS_PS1.xml#JUEGOS_PS1_items"
+				/>
+			</Items>
+	    </View>	
+		
+<!-- Submenu Psp -->			
+
+	    <View id="juegos_psp_main"> 
+		<Attributes>	
+			<Table key="juegos_psp">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/psp.png</String></Pair>
+				<Pair key="title"><String>Juegos PSP PSN</String></Pair>
+				<Pair key="info"><String>Descarga e instala juegos de PSP de todas las regiones (Formato PKG)</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="juegos_psp"
+                attr="juegos_psp"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/JUEGOS/PSP/Juegos_PSP.xml#Juegos_PSP_items"
+				/>           			
+			</Items>
+	    </View>	
+		
+<!-- Submenu Retro -->			
+
+	    <View id="juegos_retro_main"> 
+		<Attributes>
+			<Table key="arcade_games">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/CARATULAS/JUEGOS/RETRO/arcade.png</String></Pair>
+				<Pair key="title"><String>Juegos Arcade</String></Pair>
+				<Pair key="info"><String>NEO-GEO, MAME, CAPCOM, SNK</String></Pair>
+			</Table>
+			<Table key="nes_games">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/CARATULAS/JUEGOS/RETRO/nes.png</String></Pair>
+				<Pair key="title"><String>Juegos De NES</String></Pair>
+				<Pair key="info"><String></String></Pair>
+			</Table>
+			<Table key="sega_games">
+			    <Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/CARATULAS/JUEGOS/RETRO/sega.png</String></Pair>
+				<Pair key="title"><String>Juegos De SEGA</String></Pair>
+				<Pair key="info"><String></String></Pair>
+			</Table>
+			<Table key="snes_games">
+			    <Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/CARATULAS/JUEGOS/RETRO/snes.png</String></Pair>
+				<Pair key="title"><String>No Disponible</String></Pair>
+				<Pair key="info"><String></String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+            <Query
+				class="type:x-xmb/folder-pixmap"
+                key="arcade_games"
+                attr="arcade_games"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/JUEGOS/RETRO/arcade_games.xml#arcade_games_items"
+				/>
+            <Query
+				class="type:x-xmb/folder-pixmap"
+                key="nes_games"
+                attr="nes_games"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/JUEGOS/RETRO/nes_games.xml#nes_games_items"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="sega_games"
+                attr="sega_games"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/JUEGOS/RETRO/sega_games.xml#sega_games_items"
+				/>
+            <Query
+				class="type:x-xmb/folder-pixmap"
+                key="snes_games"
+                attr="snes_games"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/JUEGOS/RETRO/snes_games.xml#snes_games_items"
+				/>
+            </Items>
+		</View>	
+	
+<!-- Personalizacion -->
+        
+		<View id="personalizacion_main"> 
+		<Attributes>
+			<Table key="temas">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/temas.png</String></Pair>
+				<Pair key="title"><String>Temas</String></Pair>
+				<Pair key="info"><String>Descarga Temas</String></Pair>
+			</Table>		
+			<Table key="wave_custom">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/wave.png</String></Pair>
+				<Pair key="title"><String>Fondo Xmb</String></Pair>
+				<Pair key="info"><String>Descargar Olas</String></Pair>
+			</Table>
+			<Table key="coldboot">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/coldboot.png</String></Pair>
+				<Pair key="title"><String>Inicio Ps3</String></Pair>
+				<Pair key="info"><String>Descarga Coldboot</String></Pair>
+			</Table>
+			<Table key="AVATAR">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/AVATAR.PNG</String></Pair>
+				<Pair key="title"><String>Cambiar Avatar Ps3</String></Pair>
+				<Pair key="info"><String>Descarga Avatar</String></Pair>
+			</Table>					
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="temas"
+                attr="temas"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/PERSONALIZACION/TEMAS/temas.xml#temas_items"
+				/>		
+            <Query
+				class="type:x-xmb/folder-pixmap"
+                key="wave_custom"
+                attr="wave_custom"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/PERSONALIZACION/FONDOS_XMB/wave_custom.xml#wave_custom_items"
+				/>
+				<Query
+				class="type:x-xmb/folder-pixmap"
+                key="coldboot"
+                attr="coldboot"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/PERSONALIZACION/COLDBOOT/coldboot.xml#coldboot_items"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="AVATAR"
+                attr="AVATAR"
+                src="xmb://localhost/dev_hdd0/game/FALISTORE/USRDIR/XML/PERSONALIZACION/AVATARES/AVATARES.xml#AVATARES_items"
+				/>			
+			</Items>			
+		</View>	
+		
+<!-- Submenu Herramientas Avanzadas -->
+		
+		<View id="han_advanced_menu_main"> 
+		<Attributes> 
+			<Table key="han_file_browser">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/file_explorer.png</String></Pair>
+				<Pair key="title"><String>Explorador de Archivos</String></Pair>
+				<Pair key="info"><String>Navegue por el sistema de archivos de la consola (tenga cuidado)</String></Pair>
+			</Table>
+			<Table key="pkg_linker">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/pkglinker.png</String></Pair>
+				<Pair key="title"><String>Instalar Paquetes desde PC</String></Pair>
+				<Pair key="info"><String>Descarga e instala archivos PKG desde el PC con PKG Linker</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="canal_youtube">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/XMB/erFaLi.png</String></Pair>
+				<Pair key="title"><String>Mas Tutoriales en YouTube</String></Pair>
+				<Pair key="info"><String>Sigueme en youtube para ver mas videos de PS3</String></Pair>
+				<Pair key="module_name"><String>webrender_plugin</String></Pair>
+				<Pair key="module_action"><String>https://www.youtube.com/channel/UCOvuOwcQk2FqXK6j1b1dLpg?</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="han_file_browser"
+				attr="han_file_browser" 				
+				src="host://localhost/"
+				/>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="pkg_linker" 
+				attr="pkg_linker"
+				src="#pkg_linker_items"
+				/>
+			<Query 
+                class="type:x-xmb/module-action"
+				key="canal_youtube"
+				attr="canal_youtube"
+				/>					
+			</Items>
+		</View>
+							
+<!-- PKG Linker 2.1+ Paths -->
+		
+		<View id="pkg_linker_items"> 
+			<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="server_setup" attr="server_setup" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/server_setup.xml#server_setup_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_1" attr="pkg_folder_1" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_1.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_2" attr="pkg_folder_2" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_2.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_3" attr="pkg_folder_3" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_3.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_4" attr="pkg_folder_4" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_4.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_5" attr="pkg_folder_5" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_5.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_6" attr="pkg_folder_6" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_6.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_7" attr="pkg_folder_7" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_7.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_8" attr="pkg_folder_8" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_8.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_9" attr="pkg_folder_9" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_9.xml#package_link_game"/> 
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_10" attr="pkg_folder_10" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_10.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_11" attr="pkg_folder_11" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_11.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_12" attr="pkg_folder_12" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_12.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_13" attr="pkg_folder_13" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_13.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_14" attr="pkg_folder_14" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_14.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_15" attr="pkg_folder_15" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_15.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_16" attr="pkg_folder_16" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_16.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_17" attr="pkg_folder_17" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_17.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_18" attr="pkg_folder_18" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_18.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_19" attr="pkg_folder_19" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_19.xml#package_link_game"/> 
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_20" attr="pkg_folder_20" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_20.xml#package_link_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_root" attr="pkg_folder_root" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/pkg_folder_root.xml#pkg_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="pkg_folder_old" attr="pkg_folder_old" src="xmb://localhost/dev_hdd0/game/PKGLINKER/USRDIR/package_link.xml#package_link_game"/>
+			</Items>
+		</View>
+		
+		<!-- DirectorioFaLi  [Ultimo Update: 21/03/2021] -->
+		
+</XMBML>
+		
