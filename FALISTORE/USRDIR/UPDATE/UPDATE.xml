@@ -1,0 +1,46 @@
+<XMBML version="1.0">
+<!-- UPDATE -->
+		<View id="UPDATE_main"> 
+		<Attributes>
+			<Table key="update_link">
+                <Pair key="icon"><String>https://raw.githubusercontent.com/DirectorioFaLi/FALISTORE/main/UPDATE_PKG/1.1.png?token=ATGOONGFPJ5NTZQ34OM24XTAK2XUG</String></Pair>
+	        	<Pair key="title"><String>Update</String></Pair>
+				<Pair key="info"><String>Descarga e instala automaticamente la ultima version de DirectorioFaLi (Reiniciar la PS3 despues)</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+	        	<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+	    	    <Pair key="module_action"><String>https://github.com/DirectorioFaLi/FALISTORE/releases/download/1.1/DirectorioFaLi_1.1.pkg</String></Pair>
+        	</Table>
+			<Table key="updateUSB_link">
+                <Pair key="icon"><String>https://raw.githubusercontent.com/DirectorioFaLi/FALISTORE/main/UPDATE_PKG/1.1.png?token=ATGOONGFPJ5NTZQ34OM24XTAK2XUG</String></Pair>
+	        	<Pair key="title"><String>Update Instalación Limpia HFW/HEN/CFW (para CFW Requiere USB conectado si no usas extended download plugin)</String></Pair>
+				<Pair key="info"><String>Descarga la ultima version de DirectorioFaLi (Reiniciar la PS3 despues)</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+	        	<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+	    	    <Pair key="module_action"><String>https://archive.org/download/last-wikistore-hen-edition/Last_WIKISTORE_HEN_EDITION.pkg</String></Pair>
+        	</Table>
+			<Table key="version">
+				<Pair key="icon"><String>/dev_hdd0/game/FALISTORE/USRDIR/IMAGES/XMB/about.png</String></Pair>
+				<Pair key="title"><String>1.1</String></Pair>
+				<Pair key="info"><String>Pulsa  para ver el registro de cambios</String></Pair>
+				<Pair key="module_name"><String>webrender_plugin</String></Pair>
+				<Pair key="module_action"><String>https://github.com/DirectorioFaLi/FALISTORE/releases/download/1.1/DirectorioFaLi_1.1.pkg</String></Pair>
+			</Table>			
+		</Attributes>		
+			<Items>
+				<Item 
+			        class="type:x-xmb/module-action" 
+			        key="update_link" 
+			        attr="update_link"/>
+				<Item 
+			        class="type:x-xmb/module-action" 
+			        key="updateUSB_link" 
+			        attr="updateUSB_link"/>
+				<Query 
+					class="type:x-xmb/module-action" 
+					key="version" 
+					attr="version"
+					/>
+			</Items>
+		</View>
+	
+</XMBML>
