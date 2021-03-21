@@ -10,7 +10,7 @@
 - Lego Jurasic World - NPEB02196
 - JoJo All Star Battle - NPEB01922
 - WWE2K16 - NPEB02312
-- BATTLEFIELD - NPEB02038
+- Battlefield-Hardline - NPEB02038
 
 ------------------------------------------------------------------------------------------------------------------
 ### Version 1.0 Base
