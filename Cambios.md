@@ -1,5 +1,7 @@
 ### Cambios 1.1
-- Añadido la seccion PARCHES
+
+- Añadido Pestaña Update
+- Añadido juego en PARCHES
 - Juegos Parcheados:
 
 - Uncharted Paquete idioma Español - NPEA00363
