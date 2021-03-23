@@ -35,7 +35,7 @@ Aqui teneis una lista con todos los pkg´s disponibles y que instala cada uno.
 
 Video OFICIAL de como instalar DirectorioFaLi correctamente en HFW/CFW y de varias formas (cualquier versión 1.x.x) Descargar solo DirectorioFaLi para el firmware que esteis utilizando HFW o CFW. 
 
-[![Watch the video](https://img.youtube.com/vi/Fun_KCq8B5k/maxresdefault.jpg)](https://youtu.be/Fun_KCq8B5k)
+[![Watch the video](https://imagizer.imageshack.com/img924/3514/i4q1ZW.png)](https://youtu.be/Fun_KCq8B5k)
 
 ---
 ### Credits:
