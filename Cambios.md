@@ -13,6 +13,9 @@
 - Añadido store en Fix:
 ALVNSTORE, maxistore, VIDEOGAMESSCZ, zuko_store, JUGONXS, OASIS
 
+- modificaciones aleatorias en el pkg
+- 
+------------------------------------------------------------------------------------------------------------------
 ### Cambios 1.1
 
 - Añadido Pestaña Update
