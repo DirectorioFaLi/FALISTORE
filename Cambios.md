@@ -1,3 +1,18 @@
+### Cambios 1.2
+
+- Añadido Juegos:
+- NOBUNAGA'S AMBITION: Sphere of Influence - NPUB31701
+- NBA2K16 - NPEB02191 - Game Carpeta creado a PKG
+
+- Juegos Parcheados:
+- NOBUNAGA'S AMBITION: Sphere of Influence - NPUB31701
+
+- Añadido Pestaña Update:
+- añadido la pestaña descarga directa 
+
+- Añadido store en Fix:
+ALVNSTORE, maxistore, VIDEOGAMESSCZ, zuko_store, JUGONXS, OASIS
+
 ### Cambios 1.1
 
 - Añadido Pestaña Update
