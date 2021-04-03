@@ -1,3 +1,16 @@
+### Cambios 1.3
+
+- Añadido Juegos:
+- El Chavo Kart - NPUB31489
+- MX vs ATV REFLEX - NPEB00662 - Game Carpeta creado a PKG
+
+- Juegos Parcheados:
+- LEGO Star Wars The Force Awakens - NPEB02358
+- El Chavo Kart Full Game - NPUB31489
+
+- Añadido Activacion Gen Offline dentro de la Tienda
+
+------------------------------------------------------------------------------------------------------------------
 ### Cambios 1.2
 
 - Añadido Juegos:
